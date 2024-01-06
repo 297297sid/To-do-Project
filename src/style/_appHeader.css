@@ -1,0 +1,61 @@
+.appHeader {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 60px;
+}
+
+.containerr {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.content__wrapper {
+	background-color: var(--bg-2);
+	padding: 2rem;
+	border-radius: 12px;
+
+}
+
+.btn {
+	display: inline-block;
+	height: auto;
+	padding: 0.8rem 2rem;
+	border: none;
+	border-radius: 6px;
+	font-weight: 500;
+	font-size: 1.6rem;
+	text-decoration: none;
+	text-transform: capitalize;
+	cursor: pointer;
+	overflow: hidden;
+
+}
+.btn-primary {
+	background-color: var(--primaryPurple);
+	color: var(--white);
+}
+.btn-secondary {
+	background-color: var(--bg-3);
+	color: var(--black-1);
+}
+
+.select-btn {
+  color: var(--black-2);
+  font-family: Poppins;
+  padding: 1rem;
+  border: none;
+  background-color: var(--bg-3);
+
+  width: 150px;
+  cursor: pointer;
+}
+
+.not_found{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2.5rem;
+        font-weight:600;
+}
